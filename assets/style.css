@@ -5,15 +5,45 @@
 
 }
 
+header {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 7px solid paleturquoise;
+} 
+header a {
+    text-decoration: none;
+}
+
+header nav {
+    display: block;
+    background-color: blanchedalmond;
+
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav ul li {
+    padding-top: 30px;
+}
+
+header nav ul li a {
+    padding: 30px 40px 60px 5px;
+}
 h1 {
-    font-size: 200%;
+    font-size: 40px;
 
 }
 
-nav {
-    display: inline;
-    flex: wrap;
-}
+/* .menu {
+    display: flex;
+    flex: wrap; 
+}*/
 
 /*source for fancy box https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/create_fancy_boxes*/
 .fancy {
@@ -52,25 +82,24 @@ body {
 
 /* sizes images uniformly using flex */
 
-ul {
+.image-list {
     display: flex;
     
 }
 
-li {
+.image-project {
     flex-wrap: wrap;
-    height: 40vh;
     flex-grow: 1;
 }
 
-img {
+.image-project {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
     width: 150px;
   }
 
-li:last-child {
+.image-project:last-child {
     flex-grow: 10;
 }
 
