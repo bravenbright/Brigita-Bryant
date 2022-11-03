@@ -54,9 +54,9 @@ header nav ul li a {
 }
 h1 {
     font-size: 40px;
-    border: solid 5px #f1c40f;
+    border: 40px 20px solid 5px #f1c40f;
+    padding: 45px 60px;
     
-
 }
 
 #profile_pic {
@@ -127,6 +127,7 @@ body {
 
 .flexbox-container {
     display: flex;
+    
 }
 
 .flexbox-item {
@@ -145,7 +146,15 @@ body {
     border-width: 10px;
 }
 
+ h3 {
+  margin-top: 10%; 
+  margin-left: 20%;
 
+ }    
 
+ .flexbox-item-2 {
+flex-grow: 1;
+
+ }
 @media all and (max-width 4416px)
     
