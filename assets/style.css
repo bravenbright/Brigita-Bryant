@@ -52,6 +52,11 @@ header nav ul li {
     padding: 30px 40px 60px 5px;
 }
 
+.nav_link:hover {
+    text-decoration: underline;
+    color: violet;
+}
+
 h1 {
     font-size: 40px;
     border: 40px 20px solid 5px #f1c40f;
@@ -220,3 +225,6 @@ footer {
     margin: 2%;
 }
 
+.connect-link:hover {
+    color: violet;
+}
