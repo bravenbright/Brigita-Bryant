@@ -16,6 +16,7 @@ header {
     background-color: #FDEDEC;
     border-color:  #FFD54F;
     background-size: contain;
+    margin: 2%;
     
 } 
 
@@ -78,12 +79,12 @@ h1 {
      
  padding: 0.1em;
  
-  border: 0.25em solid #FDEDEC;
+  border: 0.4em solid #FDEDEC;
 
   width: 15em;
   height: 15em;
     
-  border-radius: 30%;
+  border-radius: 25%;
 }
 
 body {
@@ -131,6 +132,7 @@ main {
 
 .flexbox-container {
     display: flex;
+    margin: 1%;
     
 }
 
@@ -141,13 +143,25 @@ main {
     border: 3px solid #FFD54F;
     background-color: #FDEDEC;
     border-radius: 15px;
+    flex-wrap: wrap;
 }
 
-.flexbox-item-1 {
+#my-works {
     border-top: none;
     border-left: none;
     border-bottom: none;    
     border-width: 10px;
+}
+
+#my-digits{
+    border-top: none;
+    border-left: none;
+    border-bottom: none;    
+    border-width: 10px;
+    border-color: #f1c40f;
+}
+#flex-item-1 {
+    flex-grow: 1;
 }
 
 .bottom-left {
@@ -162,13 +176,23 @@ main {
 
  }    
 
- 
+#assignments {
+    flex-grow: 1;
+}
 
 .works-img {
     max-width: 200px;
     max-height: cover;
+    margin: 3% 3% 3% 3%;
+    padding: 2% 4% 2% 4%;
+    opacity: .5;
+    border-radius: 28%;
 }
 
+.works-img:hover {
+    opacity: 1;
+    max-width: 215px;
+}
  
  .about_me_container {
     display: flex;
@@ -180,4 +204,19 @@ main {
     max-height: fit-content;
 }
 
+#about_me {
+    display: flex;
+    margin: 2%;
+}
+footer {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 7px solid;
+    border-style: double;
+    background-color: #FDEDEC;
+    border-color:  #FFD54F;
+    background-size: contain;
+    text-align: center;
+    margin: 2%;
+}
 
