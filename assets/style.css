@@ -4,25 +4,24 @@
     font-size: 16px;
     color: #2A272C;
     border-radius: 15px;
-
+    
 }
 
 header {
-    
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
     border: 7px solid;
     border-style: double;
+    background-color: #FDEDEC;
     border-color:  #FFD54F;
     background-size: contain;
     
 } 
 
 header h1 {
-
     color: #2A272C;
-
+    background-color: #FFD54F;
 }
 
 header a {
@@ -35,7 +34,6 @@ header nav {
     align-content: baseline;
     background-color: #FDEDEC;
     border: solid 5px #FFD54F;
-
 }
 
 header nav ul {
@@ -49,19 +47,22 @@ header nav ul li {
     padding-top: 30px;
 }
 
-header nav ul li a {
+.nav_link {
     padding: 30px 40px 60px 5px;
 }
+
 h1 {
     font-size: 40px;
     border: 40px 20px solid 5px #f1c40f;
-    padding: 45px 60px;
-    
 }
 
 #profile_pic {
     display:flex;
     order: -1;
+    max-width: 200px;
+    height: 200px;
+    border: 5px;
+    background-color: #FDEDEC
 }
 
  .menu {
@@ -89,18 +90,21 @@ body {
     border: #ACBF60;
     font-size: 20px;
     background-color: #D7CAE5 ;
+}
+
+main {
     margin-left: 8%;
     margin-right: 8%;
 }
 
-.img {
+/* .img {
     max-width: 200px;
     height: 200px;
     border: 5px;
     background-color: #FDEDEC
     ;
    
-}
+} */
 
 /* sizes images uniformly using flex */
 
@@ -146,15 +150,34 @@ body {
     border-width: 10px;
 }
 
+.bottom-left {
+    position: relative;
+    bottom: 8px;
+    left: 16px;
+    background-color: #f1c40f;
+}   
  h3 {
   margin-top: 10%; 
   margin-left: 20%;
 
  }    
 
- .flexbox-item-2 {
-flex-grow: 1;
+ 
 
- }
-@media all and (max-width 4416px)
+.works-img {
+    max-width: 200px;
+    max-height: cover;
+}
+
+ 
+ .about_me_container {
+    display: flex;
     
+ }
+
+#farewell-image {
+    max-width: 400px;
+    max-height: fit-content;
+}
+
+

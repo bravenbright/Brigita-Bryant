@@ -1,0 +1,51 @@
+header {
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    background-color: goldenrod;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 5px;
+}
+
+#banner {
+    width: 95%;
+    display: inline-block;
+    text-align: right;
+}
+
+section {
+    padding: 1%;
+    display: flex;
+}
+
+.section-title {
+    text-align: right;
+    width: 150px;
+    margin: 1%;
+    padding: 1%;
+    border-right: solid black;
+}
+
+.section-content {
+    display: inline-flex;
+    padding: 1%;
+}
+
+.flexbox-item {
+    margin: 1%;
+}
+
+img {
+    max-width: 200px;
+}

@@ -18,52 +18,60 @@
 
     <h1>Brigita Biederman</h1>
 
-    <div>
+    
     <nav class="menu">
+    <div>
       <ul>
-        <li><a href="#about_me">About Me</a></li>
-        <li><a href="#portfolio">Fruit of My Brain</a></li>
-        <li><a href="#contact-me">Contact Me</a></li>
+        <li><a class="nav_link" href="#about_me">About Me</a></li>
+        <li><a class="nav_link" href="#portfolio">Fruit of My Brain</a></li>
+        <li><a class="nav_link" href="#contact-me">Contact Me</a></li>
       </ul>
     </nav>
   </div>
-  <div>
-     <img src="./assets/images/my_goofy_self.jpg" id="profile_pic" class="fancy">
-  </div>
-
+  
   </header>
 
   <main>
+    <body class="flex-1">
+    
+     
+   
+ 
 
     <section id="about_me">
       <div class="content">
-
+        <img src="./assets/images/my_goofy_self.jpg" id="profile_pic" class="fancy">
         <p>This is content about my flippity floppity self</p>
 
-      
+      </div>
     </section>
 
 
     <section id="portfolio">
       <div class = "flexbox-container">
         
-        <div class="flexbox-item flexbox-item-1"><h3>My Works</h3></div> 
+        <div class="flexbox-item "><h3>My Works</h3></div> 
           
-        <div class="flexbox-item flexbox-item-2"></div> 
-        <div class="flexbox-item flexbox-item-3"></div> 
+        <div class="flexbox-item">
+          <img class="works-img" src="./assets/images/Strong-Password-Generator.jpg" alt="Strong-Password-Generator">
+          <div class="bottom-left">Password Generator</div>
+          
+        </div> 
+        <div class="flexbox-item">
+          <img class="works-img" src="./assets/images/yellow_dots.jpg" alt="Bootcamp Study Guide">
+          <div class="bottom-left">Bootcamp Study Guide</div>
+        </div> 
       
-
-      <!--This will be my list of works that don't exist yeeeeettttt-->
-
-
     </section>
-
+  </body>
     <section id="contact-me">
-      <div class="content"
-      <h4>My Modern Digits...</h4>
-      <p>Feel free to reachout! I love to network and expand my circles!</p>
-      <a href="https://github.com/bravenbright">Github</a>
-      <a href="https://www.linkedin.com/in/brigita-bryant-biederman-836419253/">Linkedin</a>
+      <div class = "flexbox-container">
+        
+        <div class="flexbox-item "><h3>My Modern Digits...</h3></div> 
+        <div class="content"
+        <p>Feel free to reachout! I love to network and expand my circles!</p>
+        <a href="https://github.com/bravenbright">Github</a>
+        <a href="https://www.linkedin.com/in/brigita-bryant-biederman-836419253/">Linkedin</a>
 
     </section>
   </main>
