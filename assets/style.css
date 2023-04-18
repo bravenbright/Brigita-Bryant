@@ -89,7 +89,7 @@ h1 {
   width: 15em;
   height: 15em;
     
-  border-radius: 25%;
+  border-radius: 47%;
 }
 
 body {
@@ -201,7 +201,8 @@ main {
  
  .about_me_container {
     display: flex;
-    
+    border: 5px solid #FFD54F;
+    background-color: #FDEDEC;
  }
 
 #farewell-image {

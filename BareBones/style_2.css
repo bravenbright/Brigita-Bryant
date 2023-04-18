@@ -49,3 +49,7 @@ section {
 img {
     max-width: 200px;
 }
+
+.about_me {
+   display: inline
+}
